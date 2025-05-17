@@ -1,0 +1,30 @@
+# .gitignore for Smart Process Monitor (procmon)
+
+# Ignore compiled binary
+procmon
+
+# Ignore object files
+*.o
+
+# Ignore backup files created by editors
+*~
+*.swp
+*.bak
+
+# Ignore logs
+*.log
+
+# Ignore core dumps
+core
+core.*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files from development
+*.tmp
+
+# Ignore build/ directories
+/build/
+/dist/
