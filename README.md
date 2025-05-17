@@ -30,7 +30,7 @@ Interactive controls:
 ```
 smart-htop/
 ├── main.c         # Source code of the process monitor  
-├── procmon        # Compiled executable (ignored in .gitignore)  
+├── smart-htop         # Compiled executable (ignored in .gitignore)  
 ├── README.md      # This project documentation  
 └── .gitignore     # Git ignore rules  
 ```
@@ -42,7 +42,7 @@ smart-htop/
 Make sure you have GCC and the ncurses library installed. Compile the program with:
 
 ```bash
-gcc main.c -o procmon -lncurses
+gcc main.c -o smart-htop -lncurses
 ```
 
 ---
@@ -52,7 +52,7 @@ gcc main.c -o procmon -lncurses
 Run the compiled executable in your terminal:
 
 ```bash
-./procmon
+./smart-htop
 ```
 
 You will see a dashboard showing system stats and the top CPU-consuming processes updating every few seconds.
