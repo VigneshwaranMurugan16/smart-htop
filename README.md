@@ -1,4 +1,4 @@
-# 🖥️ Smart Process Monitor (`procmon`)
+# 🖥️ Smart Process Monitor (`smart-htop`)
 
 A lightweight terminal-based system monitoring tool written in C, leveraging the `ncurses` library.  
 It displays system uptime, load average, memory usage, CPU information, and the top 5 CPU-consuming processes dynamically in a colorful and interactive terminal UI.
@@ -28,7 +28,7 @@ Interactive controls:
 ## 🗂️ Project Structure
 
 ```
-procmon/
+smart-htop/
 ├── main.c         # Source code of the process monitor  
 ├── procmon        # Compiled executable (ignored in .gitignore)  
 ├── README.md      # This project documentation  
